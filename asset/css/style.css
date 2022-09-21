@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    padding: 0.5rem 0;
+    height: 66px;
+    line-height: 2;
+    background-color: #F8F9FA;
+}
+
+.container {
+
+
+}
+
+.bootstrap {
+    float: left;
+    padding-left: 12px;
+    margin-left: 112px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.9);
+    padding: 5px 0;
+    margin-right: 16px;
+    height: 40px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.sign-up {
+    float: right;
+    padding: 8px 18px 8px 18px;
+    margin-right: 112px;
+    cursor: pointer;
+    /* line-height: 3.4; */
+    border-color: #0d6efd;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.sign-up:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    color: #fff;
+}
+
+.header {
+    text-align: center;
+    padding: 12rem 400px;
+    background: url(../css/img/bg-masthead.jpg) no-repeat center center;
+    height: 611px;
+    filter: grayscale(35%);
+}
+
+.box1 .des1 {
+    font-size: 48px;
+    margin-bottom: 48px;
+    color: #fff;
+}
+
+.form1 {
+
+}
+
+.email-address {
+    padding: 16px 20px;
+    width: 75%;
+    margin: 0 20px;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    border: none;
+    height: 60px;
+}
+
+.submit-btn {
+    font-size: 20px;
+    background-color: #0d6efd;
+    border: #0d6efd;
+    padding: 16px 20px;
+    border-radius: 0.3rem;
+    color: #fff;
+    cursor: pointer;
+    height: 60px;
+}
+
+.submit-btn:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+
+.section1 {
+    height: 453px;
+    background-color: #F8F9FA;
+    padding: 112px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.window-section, .layer-section, .terminal-section {
+    display: inline-block;
+    padding: 0 12px;
+    /* width: 33.33333%;c */
+}
+
+.window, .layer, .terminal {
+    margin: 0 48px 16px 48px;
+    max-width: 20rem;
+
+}
